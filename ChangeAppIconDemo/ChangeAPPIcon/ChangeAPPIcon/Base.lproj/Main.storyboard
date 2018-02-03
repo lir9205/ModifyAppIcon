@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="797-gv-dwZ">
+                                <rect key="frame" x="141.5" y="160" width="92" height="30"/>
+                                <state key="normal" title="改变应用图片"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rr2-cy-I1u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hl7-E6-Uzo">
+                                <rect key="frame" x="113.5" y="220" width="147" height="30"/>
+                                <state key="normal" title="测试一般的 AlertView"/>
+                                <connections>
+                                    <action selector="testAlertView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Emf-qS-bmh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsJ-A2-Bek">
+                                <rect key="frame" x="103.5" y="277" width="166" height="30"/>
+                                <state key="normal" title="Prensent ViewController"/>
+                                <connections>
+                                    <action selector="PresentViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d9V-g8-IND"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="797-gv-dwZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Lh-hu-Jq2"/>
+                            <constraint firstItem="jsJ-A2-Bek" firstAttribute="centerX" secondItem="Hl7-E6-Uzo" secondAttribute="centerX" id="GxT-QI-rNv"/>
+                            <constraint firstItem="Hl7-E6-Uzo" firstAttribute="centerX" secondItem="797-gv-dwZ" secondAttribute="centerX" id="Hio-Bh-9O7"/>
+                            <constraint firstItem="jsJ-A2-Bek" firstAttribute="top" secondItem="Hl7-E6-Uzo" secondAttribute="bottom" constant="27" id="VPN-pS-Yad"/>
+                            <constraint firstItem="797-gv-dwZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="is9-cj-yTZ"/>
+                            <constraint firstItem="Hl7-E6-Uzo" firstAttribute="top" secondItem="797-gv-dwZ" secondAttribute="bottom" constant="30" id="yk2-bJ-EO3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

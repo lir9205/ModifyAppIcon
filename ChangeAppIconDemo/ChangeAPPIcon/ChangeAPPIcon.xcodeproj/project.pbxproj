@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8495374A2022E4E700BCB43F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849537492022E4E700BCB43F /* AppDelegate.m */; };
+		8495374D2022E4E700BCB43F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495374C2022E4E700BCB43F /* ViewController.m */; };
+		849537502022E4E700BCB43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495374E2022E4E700BCB43F /* Main.storyboard */; };
+		849537522022E4E700BCB43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849537512022E4E700BCB43F /* Assets.xcassets */; };
+		849537552022E4E700BCB43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849537532022E4E700BCB43F /* LaunchScreen.storyboard */; };
+		849537582022E4E700BCB43F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849537572022E4E700BCB43F /* main.m */; };
+		8495379D2022F73B00BCB43F /* 日历10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495375F2022F73B00BCB43F /* 日历10@2x.png */; };
+		8495379E2022F73B00BCB43F /* 日历10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537602022F73B00BCB43F /* 日历10@3x.png */; };
+		8495379F2022F73B00BCB43F /* 日历11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537612022F73B00BCB43F /* 日历11@2x.png */; };
+		849537A02022F73B00BCB43F /* 日历11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537622022F73B00BCB43F /* 日历11@3x.png */; };
+		849537A12022F73B00BCB43F /* 日历12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537632022F73B00BCB43F /* 日历12@2x.png */; };
+		849537A22022F73B00BCB43F /* 日历12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537642022F73B00BCB43F /* 日历12@3x.png */; };
+		849537A32022F73B00BCB43F /* 日历13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537652022F73B00BCB43F /* 日历13@2x.png */; };
+		849537A42022F73B00BCB43F /* 日历13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537662022F73B00BCB43F /* 日历13@3x.png */; };
+		849537A52022F73B00BCB43F /* 日历14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537672022F73B00BCB43F /* 日历14@2x.png */; };
+		849537A62022F73B00BCB43F /* 日历14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537682022F73B00BCB43F /* 日历14@3x.png */; };
+		849537A72022F73B00BCB43F /* 日历15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537692022F73B00BCB43F /* 日历15@2x.png */; };
+		849537A82022F73B00BCB43F /* 日历15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376A2022F73B00BCB43F /* 日历15@3x.png */; };
+		849537A92022F73B00BCB43F /* 日历16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376B2022F73B00BCB43F /* 日历16@2x.png */; };
+		849537AA2022F73B00BCB43F /* 日历16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376C2022F73B00BCB43F /* 日历16@3x.png */; };
+		849537AB2022F73B00BCB43F /* 日历17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376D2022F73B00BCB43F /* 日历17@2x.png */; };
+		849537AC2022F73B00BCB43F /* 日历17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376E2022F73B00BCB43F /* 日历17@3x.png */; };
+		849537AD2022F73B00BCB43F /* 日历18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495376F2022F73B00BCB43F /* 日历18@2x.png */; };
+		849537AE2022F73B00BCB43F /* 日历18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537702022F73B00BCB43F /* 日历18@3x.png */; };
+		849537AF2022F73B00BCB43F /* 日历19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537712022F73B00BCB43F /* 日历19@2x.png */; };
+		849537B02022F73B00BCB43F /* 日历19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537722022F73B00BCB43F /* 日历19@3x.png */; };
+		849537B12022F73B00BCB43F /* 日历1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537732022F73B00BCB43F /* 日历1@2x.png */; };
+		849537B22022F73B00BCB43F /* 日历1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537742022F73B00BCB43F /* 日历1@3x.png */; };
+		849537B32022F73B00BCB43F /* 日历20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537752022F73B00BCB43F /* 日历20@2x.png */; };
+		849537B42022F73B00BCB43F /* 日历20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537762022F73B00BCB43F /* 日历20@3x.png */; };
+		849537B52022F73B00BCB43F /* 日历21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537772022F73B00BCB43F /* 日历21@2x.png */; };
+		849537B62022F73B00BCB43F /* 日历21@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537782022F73B00BCB43F /* 日历21@3x.png */; };
+		849537B72022F73B00BCB43F /* 日历22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537792022F73B00BCB43F /* 日历22@2x.png */; };
+		849537B82022F73B00BCB43F /* 日历22@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377A2022F73B00BCB43F /* 日历22@3x.png */; };
+		849537B92022F73B00BCB43F /* 日历23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377B2022F73B00BCB43F /* 日历23@2x.png */; };
+		849537BA2022F73B00BCB43F /* 日历23@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377C2022F73B00BCB43F /* 日历23@3x.png */; };
+		849537BB2022F73B00BCB43F /* 日历24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377D2022F73B00BCB43F /* 日历24@2x.png */; };
+		849537BC2022F73B00BCB43F /* 日历24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377E2022F73B00BCB43F /* 日历24@3x.png */; };
+		849537BD2022F73B00BCB43F /* 日历25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495377F2022F73B00BCB43F /* 日历25@2x.png */; };
+		849537BE2022F73B00BCB43F /* 日历25@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537802022F73B00BCB43F /* 日历25@3x.png */; };
+		849537BF2022F73B00BCB43F /* 日历26@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537812022F73B00BCB43F /* 日历26@2x.png */; };
+		849537C02022F73B00BCB43F /* 日历26@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537822022F73B00BCB43F /* 日历26@3x.png */; };
+		849537C12022F73B00BCB43F /* 日历27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537832022F73B00BCB43F /* 日历27@2x.png */; };
+		849537C22022F73B00BCB43F /* 日历27@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537842022F73B00BCB43F /* 日历27@3x.png */; };
+		849537C32022F73B00BCB43F /* 日历28@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537852022F73B00BCB43F /* 日历28@2x.png */; };
+		849537C42022F73B00BCB43F /* 日历28@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537862022F73B00BCB43F /* 日历28@3x.png */; };
+		849537C52022F73B00BCB43F /* 日历29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537872022F73B00BCB43F /* 日历29@2x.png */; };
+		849537C62022F73B00BCB43F /* 日历29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537882022F73B00BCB43F /* 日历29@3x.png */; };
+		849537C72022F73B00BCB43F /* 日历2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537892022F73B00BCB43F /* 日历2@2x.png */; };
+		849537C82022F73B00BCB43F /* 日历2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378A2022F73B00BCB43F /* 日历2@3x.png */; };
+		849537C92022F73B00BCB43F /* 日历30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378B2022F73B00BCB43F /* 日历30@2x.png */; };
+		849537CA2022F73B00BCB43F /* 日历30@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378C2022F73B00BCB43F /* 日历30@3x.png */; };
+		849537CB2022F73B00BCB43F /* 日历31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378D2022F73B00BCB43F /* 日历31@2x.png */; };
+		849537CC2022F73B00BCB43F /* 日历31@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378E2022F73B00BCB43F /* 日历31@3x.png */; };
+		849537CD2022F73B00BCB43F /* 日历3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495378F2022F73B00BCB43F /* 日历3@2x.png */; };
+		849537CE2022F73B00BCB43F /* 日历3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537902022F73B00BCB43F /* 日历3@3x.png */; };
+		849537CF2022F73B00BCB43F /* 日历4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537912022F73B00BCB43F /* 日历4@2x.png */; };
+		849537D02022F73B00BCB43F /* 日历4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537922022F73B00BCB43F /* 日历4@3x.png */; };
+		849537D12022F73B00BCB43F /* 日历5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537932022F73B00BCB43F /* 日历5@2x.png */; };
+		849537D22022F73B00BCB43F /* 日历5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537942022F73B00BCB43F /* 日历5@3x.png */; };
+		849537D32022F73B00BCB43F /* 日历6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537952022F73B00BCB43F /* 日历6@2x.png */; };
+		849537D42022F73B00BCB43F /* 日历6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537962022F73B00BCB43F /* 日历6@3x.png */; };
+		849537D52022F73B00BCB43F /* 日历7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537972022F73B00BCB43F /* 日历7@2x.png */; };
+		849537D62022F73B00BCB43F /* 日历7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537982022F73B00BCB43F /* 日历7@3x.png */; };
+		849537D72022F73B00BCB43F /* 日历8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849537992022F73B00BCB43F /* 日历8@2x.png */; };
+		849537D82022F73B00BCB43F /* 日历8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495379A2022F73B00BCB43F /* 日历8@3x.png */; };
+		849537D92022F73B00BCB43F /* 日历9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495379B2022F73B00BCB43F /* 日历9@2x.png */; };
+		849537DA2022F73B00BCB43F /* 日历9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495379C2022F73B00BCB43F /* 日历9@3x.png */; };
+		849537DD202308A500BCB43F /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 849537DC202308A500BCB43F /* UIViewController+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849537452022E4E700BCB43F /* ChangeAPPIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeAPPIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849537482022E4E700BCB43F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849537492022E4E700BCB43F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8495374B2022E4E700BCB43F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8495374C2022E4E700BCB43F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8495374F2022E4E700BCB43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849537512022E4E700BCB43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849537542022E4E700BCB43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849537562022E4E700BCB43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849537572022E4E700BCB43F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8495375F2022F73B00BCB43F /* 日历10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历10@2x.png"; sourceTree = "<group>"; };
+		849537602022F73B00BCB43F /* 日历10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历10@3x.png"; sourceTree = "<group>"; };
+		849537612022F73B00BCB43F /* 日历11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历11@2x.png"; sourceTree = "<group>"; };
+		849537622022F73B00BCB43F /* 日历11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历11@3x.png"; sourceTree = "<group>"; };
+		849537632022F73B00BCB43F /* 日历12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历12@2x.png"; sourceTree = "<group>"; };
+		849537642022F73B00BCB43F /* 日历12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历12@3x.png"; sourceTree = "<group>"; };
+		849537652022F73B00BCB43F /* 日历13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历13@2x.png"; sourceTree = "<group>"; };
+		849537662022F73B00BCB43F /* 日历13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历13@3x.png"; sourceTree = "<group>"; };
+		849537672022F73B00BCB43F /* 日历14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历14@2x.png"; sourceTree = "<group>"; };
+		849537682022F73B00BCB43F /* 日历14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历14@3x.png"; sourceTree = "<group>"; };
+		849537692022F73B00BCB43F /* 日历15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历15@2x.png"; sourceTree = "<group>"; };
+		8495376A2022F73B00BCB43F /* 日历15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历15@3x.png"; sourceTree = "<group>"; };
+		8495376B2022F73B00BCB43F /* 日历16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历16@2x.png"; sourceTree = "<group>"; };
+		8495376C2022F73B00BCB43F /* 日历16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历16@3x.png"; sourceTree = "<group>"; };
+		8495376D2022F73B00BCB43F /* 日历17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历17@2x.png"; sourceTree = "<group>"; };
+		8495376E2022F73B00BCB43F /* 日历17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历17@3x.png"; sourceTree = "<group>"; };
+		8495376F2022F73B00BCB43F /* 日历18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历18@2x.png"; sourceTree = "<group>"; };
+		849537702022F73B00BCB43F /* 日历18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历18@3x.png"; sourceTree = "<group>"; };
+		849537712022F73B00BCB43F /* 日历19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历19@2x.png"; sourceTree = "<group>"; };
+		849537722022F73B00BCB43F /* 日历19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历19@3x.png"; sourceTree = "<group>"; };
+		849537732022F73B00BCB43F /* 日历1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历1@2x.png"; sourceTree = "<group>"; };
+		849537742022F73B00BCB43F /* 日历1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历1@3x.png"; sourceTree = "<group>"; };
+		849537752022F73B00BCB43F /* 日历20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历20@2x.png"; sourceTree = "<group>"; };
+		849537762022F73B00BCB43F /* 日历20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历20@3x.png"; sourceTree = "<group>"; };
+		849537772022F73B00BCB43F /* 日历21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历21@2x.png"; sourceTree = "<group>"; };
+		849537782022F73B00BCB43F /* 日历21@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历21@3x.png"; sourceTree = "<group>"; };
+		849537792022F73B00BCB43F /* 日历22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历22@2x.png"; sourceTree = "<group>"; };
+		8495377A2022F73B00BCB43F /* 日历22@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历22@3x.png"; sourceTree = "<group>"; };
+		8495377B2022F73B00BCB43F /* 日历23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历23@2x.png"; sourceTree = "<group>"; };
+		8495377C2022F73B00BCB43F /* 日历23@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历23@3x.png"; sourceTree = "<group>"; };
+		8495377D2022F73B00BCB43F /* 日历24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历24@2x.png"; sourceTree = "<group>"; };
+		8495377E2022F73B00BCB43F /* 日历24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历24@3x.png"; sourceTree = "<group>"; };
+		8495377F2022F73B00BCB43F /* 日历25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历25@2x.png"; sourceTree = "<group>"; };
+		849537802022F73B00BCB43F /* 日历25@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历25@3x.png"; sourceTree = "<group>"; };
+		849537812022F73B00BCB43F /* 日历26@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历26@2x.png"; sourceTree = "<group>"; };
+		849537822022F73B00BCB43F /* 日历26@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历26@3x.png"; sourceTree = "<group>"; };
+		849537832022F73B00BCB43F /* 日历27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历27@2x.png"; sourceTree = "<group>"; };
+		849537842022F73B00BCB43F /* 日历27@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历27@3x.png"; sourceTree = "<group>"; };
+		849537852022F73B00BCB43F /* 日历28@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历28@2x.png"; sourceTree = "<group>"; };
+		849537862022F73B00BCB43F /* 日历28@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历28@3x.png"; sourceTree = "<group>"; };
+		849537872022F73B00BCB43F /* 日历29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历29@2x.png"; sourceTree = "<group>"; };
+		849537882022F73B00BCB43F /* 日历29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历29@3x.png"; sourceTree = "<group>"; };
+		849537892022F73B00BCB43F /* 日历2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历2@2x.png"; sourceTree = "<group>"; };
+		8495378A2022F73B00BCB43F /* 日历2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历2@3x.png"; sourceTree = "<group>"; };
+		8495378B2022F73B00BCB43F /* 日历30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历30@2x.png"; sourceTree = "<group>"; };
+		8495378C2022F73B00BCB43F /* 日历30@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历30@3x.png"; sourceTree = "<group>"; };
+		8495378D2022F73B00BCB43F /* 日历31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历31@2x.png"; sourceTree = "<group>"; };
+		8495378E2022F73B00BCB43F /* 日历31@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历31@3x.png"; sourceTree = "<group>"; };
+		8495378F2022F73B00BCB43F /* 日历3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历3@2x.png"; sourceTree = "<group>"; };
+		849537902022F73B00BCB43F /* 日历3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历3@3x.png"; sourceTree = "<group>"; };
+		849537912022F73B00BCB43F /* 日历4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历4@2x.png"; sourceTree = "<group>"; };
+		849537922022F73B00BCB43F /* 日历4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历4@3x.png"; sourceTree = "<group>"; };
+		849537932022F73B00BCB43F /* 日历5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历5@2x.png"; sourceTree = "<group>"; };
+		849537942022F73B00BCB43F /* 日历5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历5@3x.png"; sourceTree = "<group>"; };
+		849537952022F73B00BCB43F /* 日历6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历6@2x.png"; sourceTree = "<group>"; };
+		849537962022F73B00BCB43F /* 日历6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历6@3x.png"; sourceTree = "<group>"; };
+		849537972022F73B00BCB43F /* 日历7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历7@2x.png"; sourceTree = "<group>"; };
+		849537982022F73B00BCB43F /* 日历7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历7@3x.png"; sourceTree = "<group>"; };
+		849537992022F73B00BCB43F /* 日历8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历8@2x.png"; sourceTree = "<group>"; };
+		8495379A2022F73B00BCB43F /* 日历8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历8@3x.png"; sourceTree = "<group>"; };
+		8495379B2022F73B00BCB43F /* 日历9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历9@2x.png"; sourceTree = "<group>"; };
+		8495379C2022F73B00BCB43F /* 日历9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日历9@3x.png"; sourceTree = "<group>"; };
+		849537DB202308A500BCB43F /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		849537DC202308A500BCB43F /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849537422022E4E700BCB43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8495373C2022E4E600BCB43F = {
+			isa = PBXGroup;
+			children = (
+				849537472022E4E700BCB43F /* ChangeAPPIcon */,
+				849537462022E4E700BCB43F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849537462022E4E700BCB43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849537452022E4E700BCB43F /* ChangeAPPIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849537472022E4E700BCB43F /* ChangeAPPIcon */ = {
+			isa = PBXGroup;
+			children = (
+				849537482022E4E700BCB43F /* AppDelegate.h */,
+				849537492022E4E700BCB43F /* AppDelegate.m */,
+				8495374B2022E4E700BCB43F /* ViewController.h */,
+				8495374C2022E4E700BCB43F /* ViewController.m */,
+				849537DB202308A500BCB43F /* UIViewController+Extension.h */,
+				849537DC202308A500BCB43F /* UIViewController+Extension.m */,
+				8495374E2022E4E700BCB43F /* Main.storyboard */,
+				849537512022E4E700BCB43F /* Assets.xcassets */,
+				849537532022E4E700BCB43F /* LaunchScreen.storyboard */,
+				849537562022E4E700BCB43F /* Info.plist */,
+				849537572022E4E700BCB43F /* main.m */,
+				8495375E2022F73B00BCB43F /* AppIcon */,
+			);
+			path = ChangeAPPIcon;
+			sourceTree = "<group>";
+		};
+		8495375E2022F73B00BCB43F /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				8495375F2022F73B00BCB43F /* 日历10@2x.png */,
+				849537602022F73B00BCB43F /* 日历10@3x.png */,
+				849537612022F73B00BCB43F /* 日历11@2x.png */,
+				849537622022F73B00BCB43F /* 日历11@3x.png */,
+				849537632022F73B00BCB43F /* 日历12@2x.png */,
+				849537642022F73B00BCB43F /* 日历12@3x.png */,
+				849537652022F73B00BCB43F /* 日历13@2x.png */,
+				849537662022F73B00BCB43F /* 日历13@3x.png */,
+				849537672022F73B00BCB43F /* 日历14@2x.png */,
+				849537682022F73B00BCB43F /* 日历14@3x.png */,
+				849537692022F73B00BCB43F /* 日历15@2x.png */,
+				8495376A2022F73B00BCB43F /* 日历15@3x.png */,
+				8495376B2022F73B00BCB43F /* 日历16@2x.png */,
+				8495376C2022F73B00BCB43F /* 日历16@3x.png */,
+				8495376D2022F73B00BCB43F /* 日历17@2x.png */,
+				8495376E2022F73B00BCB43F /* 日历17@3x.png */,
+				8495376F2022F73B00BCB43F /* 日历18@2x.png */,
+				849537702022F73B00BCB43F /* 日历18@3x.png */,
+				849537712022F73B00BCB43F /* 日历19@2x.png */,
+				849537722022F73B00BCB43F /* 日历19@3x.png */,
+				849537732022F73B00BCB43F /* 日历1@2x.png */,
+				849537742022F73B00BCB43F /* 日历1@3x.png */,
+				849537752022F73B00BCB43F /* 日历20@2x.png */,
+				849537762022F73B00BCB43F /* 日历20@3x.png */,
+				849537772022F73B00BCB43F /* 日历21@2x.png */,
+				849537782022F73B00BCB43F /* 日历21@3x.png */,
+				849537792022F73B00BCB43F /* 日历22@2x.png */,
+				8495377A2022F73B00BCB43F /* 日历22@3x.png */,
+				8495377B2022F73B00BCB43F /* 日历23@2x.png */,
+				8495377C2022F73B00BCB43F /* 日历23@3x.png */,
+				8495377D2022F73B00BCB43F /* 日历24@2x.png */,
+				8495377E2022F73B00BCB43F /* 日历24@3x.png */,
+				8495377F2022F73B00BCB43F /* 日历25@2x.png */,
+				849537802022F73B00BCB43F /* 日历25@3x.png */,
+				849537812022F73B00BCB43F /* 日历26@2x.png */,
+				849537822022F73B00BCB43F /* 日历26@3x.png */,
+				849537832022F73B00BCB43F /* 日历27@2x.png */,
+				849537842022F73B00BCB43F /* 日历27@3x.png */,
+				849537852022F73B00BCB43F /* 日历28@2x.png */,
+				849537862022F73B00BCB43F /* 日历28@3x.png */,
+				849537872022F73B00BCB43F /* 日历29@2x.png */,
+				849537882022F73B00BCB43F /* 日历29@3x.png */,
+				849537892022F73B00BCB43F /* 日历2@2x.png */,
+				8495378A2022F73B00BCB43F /* 日历2@3x.png */,
+				8495378B2022F73B00BCB43F /* 日历30@2x.png */,
+				8495378C2022F73B00BCB43F /* 日历30@3x.png */,
+				8495378D2022F73B00BCB43F /* 日历31@2x.png */,
+				8495378E2022F73B00BCB43F /* 日历31@3x.png */,
+				8495378F2022F73B00BCB43F /* 日历3@2x.png */,
+				849537902022F73B00BCB43F /* 日历3@3x.png */,
+				849537912022F73B00BCB43F /* 日历4@2x.png */,
+				849537922022F73B00BCB43F /* 日历4@3x.png */,
+				849537932022F73B00BCB43F /* 日历5@2x.png */,
+				849537942022F73B00BCB43F /* 日历5@3x.png */,
+				849537952022F73B00BCB43F /* 日历6@2x.png */,
+				849537962022F73B00BCB43F /* 日历6@3x.png */,
+				849537972022F73B00BCB43F /* 日历7@2x.png */,
+				849537982022F73B00BCB43F /* 日历7@3x.png */,
+				849537992022F73B00BCB43F /* 日历8@2x.png */,
+				8495379A2022F73B00BCB43F /* 日历8@3x.png */,
+				8495379B2022F73B00BCB43F /* 日历9@2x.png */,
+				8495379C2022F73B00BCB43F /* 日历9@3x.png */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849537442022E4E700BCB43F /* ChangeAPPIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495375B2022E4E700BCB43F /* Build configuration list for PBXNativeTarget "ChangeAPPIcon" */;
+			buildPhases = (
+				849537412022E4E700BCB43F /* Sources */,
+				849537422022E4E700BCB43F /* Frameworks */,
+				849537432022E4E700BCB43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeAPPIcon;
+			productName = ChangeAPPIcon;
+			productReference = 849537452022E4E700BCB43F /* ChangeAPPIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8495373D2022E4E600BCB43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lirui;
+				TargetAttributes = {
+					849537442022E4E700BCB43F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 849537402022E4E600BCB43F /* Build configuration list for PBXProject "ChangeAPPIcon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8495373C2022E4E600BCB43F;
+			productRefGroup = 849537462022E4E700BCB43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849537442022E4E700BCB43F /* ChangeAPPIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849537432022E4E700BCB43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495379D2022F73B00BCB43F /* 日历10@2x.png in Resources */,
+				849537AB2022F73B00BCB43F /* 日历17@2x.png in Resources */,
+				849537CF2022F73B00BCB43F /* 日历4@2x.png in Resources */,
+				849537B82022F73B00BCB43F /* 日历22@3x.png in Resources */,
+				849537BF2022F73B00BCB43F /* 日历26@2x.png in Resources */,
+				849537A82022F73B00BCB43F /* 日历15@3x.png in Resources */,
+				849537BA2022F73B00BCB43F /* 日历23@3x.png in Resources */,
+				849537A02022F73B00BCB43F /* 日历11@3x.png in Resources */,
+				849537AC2022F73B00BCB43F /* 日历17@3x.png in Resources */,
+				849537A42022F73B00BCB43F /* 日历13@3x.png in Resources */,
+				849537BC2022F73B00BCB43F /* 日历24@3x.png in Resources */,
+				849537D92022F73B00BCB43F /* 日历9@2x.png in Resources */,
+				849537AE2022F73B00BCB43F /* 日历18@3x.png in Resources */,
+				849537B32022F73B00BCB43F /* 日历20@2x.png in Resources */,
+				849537A62022F73B00BCB43F /* 日历14@3x.png in Resources */,
+				849537CD2022F73B00BCB43F /* 日历3@2x.png in Resources */,
+				849537CE2022F73B00BCB43F /* 日历3@3x.png in Resources */,
+				8495379F2022F73B00BCB43F /* 日历11@2x.png in Resources */,
+				849537AA2022F73B00BCB43F /* 日历16@3x.png in Resources */,
+				849537A72022F73B00BCB43F /* 日历15@2x.png in Resources */,
+				849537B12022F73B00BCB43F /* 日历1@2x.png in Resources */,
+				849537CC2022F73B00BCB43F /* 日历31@3x.png in Resources */,
+				849537A52022F73B00BCB43F /* 日历14@2x.png in Resources */,
+				849537B52022F73B00BCB43F /* 日历21@2x.png in Resources */,
+				849537C32022F73B00BCB43F /* 日历28@2x.png in Resources */,
+				849537BE2022F73B00BCB43F /* 日历25@3x.png in Resources */,
+				849537C12022F73B00BCB43F /* 日历27@2x.png in Resources */,
+				849537D72022F73B00BCB43F /* 日历8@2x.png in Resources */,
+				849537C22022F73B00BCB43F /* 日历27@3x.png in Resources */,
+				849537B42022F73B00BCB43F /* 日历20@3x.png in Resources */,
+				849537D32022F73B00BCB43F /* 日历6@2x.png in Resources */,
+				849537CA2022F73B00BCB43F /* 日历30@3x.png in Resources */,
+				849537B22022F73B00BCB43F /* 日历1@3x.png in Resources */,
+				849537D62022F73B00BCB43F /* 日历7@3x.png in Resources */,
+				849537A32022F73B00BCB43F /* 日历13@2x.png in Resources */,
+				849537C72022F73B00BCB43F /* 日历2@2x.png in Resources */,
+				849537D42022F73B00BCB43F /* 日历6@3x.png in Resources */,
+				849537C52022F73B00BCB43F /* 日历29@2x.png in Resources */,
+				849537D02022F73B00BCB43F /* 日历4@3x.png in Resources */,
+				849537C42022F73B00BCB43F /* 日历28@3x.png in Resources */,
+				849537AD2022F73B00BCB43F /* 日历18@2x.png in Resources */,
+				849537D22022F73B00BCB43F /* 日历5@3x.png in Resources */,
+				849537BD2022F73B00BCB43F /* 日历25@2x.png in Resources */,
+				849537C82022F73B00BCB43F /* 日历2@3x.png in Resources */,
+				849537C02022F73B00BCB43F /* 日历26@3x.png in Resources */,
+				8495379E2022F73B00BCB43F /* 日历10@3x.png in Resources */,
+				849537B02022F73B00BCB43F /* 日历19@3x.png in Resources */,
+				849537B62022F73B00BCB43F /* 日历21@3x.png in Resources */,
+				849537A92022F73B00BCB43F /* 日历16@2x.png in Resources */,
+				849537BB2022F73B00BCB43F /* 日历24@2x.png in Resources */,
+				849537C92022F73B00BCB43F /* 日历30@2x.png in Resources */,
+				849537B92022F73B00BCB43F /* 日历23@2x.png in Resources */,
+				849537A22022F73B00BCB43F /* 日历12@3x.png in Resources */,
+				849537552022E4E700BCB43F /* LaunchScreen.storyboard in Resources */,
+				849537CB2022F73B00BCB43F /* 日历31@2x.png in Resources */,
+				849537D82022F73B00BCB43F /* 日历8@3x.png in Resources */,
+				849537B72022F73B00BCB43F /* 日历22@2x.png in Resources */,
+				849537D52022F73B00BCB43F /* 日历7@2x.png in Resources */,
+				849537522022E4E700BCB43F /* Assets.xcassets in Resources */,
+				849537AF2022F73B00BCB43F /* 日历19@2x.png in Resources */,
+				849537A12022F73B00BCB43F /* 日历12@2x.png in Resources */,
+				849537C62022F73B00BCB43F /* 日历29@3x.png in Resources */,
+				849537502022E4E700BCB43F /* Main.storyboard in Resources */,
+				849537DA2022F73B00BCB43F /* 日历9@3x.png in Resources */,
+				849537D12022F73B00BCB43F /* 日历5@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849537412022E4E700BCB43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849537DD202308A500BCB43F /* UIViewController+Extension.m in Sources */,
+				8495374D2022E4E700BCB43F /* ViewController.m in Sources */,
+				849537582022E4E700BCB43F /* main.m in Sources */,
+				8495374A2022E4E700BCB43F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8495374E2022E4E700BCB43F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495374F2022E4E700BCB43F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849537532022E4E700BCB43F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849537542022E4E700BCB43F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849537592022E4E700BCB43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8495375A2022E4E700BCB43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8495375C2022E4E700BCB43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB56Q6VEQ2;
+				INFOPLIST_FILE = ChangeAPPIcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenchuang.ChangeAPPIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8495375D2022E4E700BCB43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB56Q6VEQ2;
+				INFOPLIST_FILE = ChangeAPPIcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenchuang.ChangeAPPIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849537402022E4E600BCB43F /* Build configuration list for PBXProject "ChangeAPPIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849537592022E4E700BCB43F /* Debug */,
+				8495375A2022E4E700BCB43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495375B2022E4E700BCB43F /* Build configuration list for PBXNativeTarget "ChangeAPPIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495375C2022E4E700BCB43F /* Debug */,
+				8495375D2022E4E700BCB43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8495373D2022E4E600BCB43F /* Project object */;
+}

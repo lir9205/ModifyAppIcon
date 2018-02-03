@@ -21,12 +21,12 @@
 
 - (IBAction)buttonClicked:(id)sender {
     
-//    NSCalendar *currentCanlender = [NSCalendar currentCalendar];
-//    currentCanlender.
-//
-    
-//    arc4random_uniform(31)+1
-    [self setAppIconWithName:[NSString stringWithFormat:@"日历%zd",arc4random_uniform(31)+1]];
+    NSDate * date  = [NSDate date];
+    NSCalendar * calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian]; // 指定日历的算法 NSCalendarIdentifierGregorian,NSGregorianCalendar
+    // NSDateComponent 可以获得日期的详细信息，即日期的组成
+    NSDateComponents *comps = [calendar components:NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSCalendarUnitHour|NSCalendarUnitMinute|NSCalendarUnitSecond|NSCalendarUnitWeekOfMonth|NSCalendarUnitWeekday fromDate:date];
+
+    [self setAppIconWithName:[NSString stringWithFormat:@"日历%zd",comps.day]];
     
 }
 
